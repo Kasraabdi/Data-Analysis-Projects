@@ -44,27 +44,3 @@ if data_loaded:
         if st.button("Calculate Average Closing Price"):
             avg_price = btc_data["Close"].mean()
             st.success(f"The average closing price in this period was: ${avg_price:,.2f}")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
